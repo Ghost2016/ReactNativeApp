@@ -1,0 +1,228 @@
+
+.txt{
+    font-family: "PingFang SC", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.sxz-page{
+    width: 100%;
+    min-height: 1206px;
+    overflow-x:hidden;
+    height: 100%;
+    background: url(https://share.zhimekaimen.com/images/suanxinzi/salary_pic_bg@2x.png);
+
+    .sxz-container{
+        width: 98%;
+        border: 0px #f00 solid;
+        margin: 0 auto;
+    }
+}
+
+.align-center{
+    text-align:center;
+}
+
+.img{
+    border: 0px #f00 solid;
+}
+
+/* page style */
+
+.mainBg{
+    width: 351*2px;
+    height: 573*2px;
+    background: url(https://share.zhimekaimen.com/images/suanxinzi/salary_pic_answer_bg@2x.png) 20px 0px / contain no-repeat;
+    border: 0px #f00 solid;
+    margin: 0 auto;
+    &.result{
+        width: 351*2px;
+        height: 573*2px;
+        margin-top: 2*2px;
+        background: url(https://share.zhimekaimen.com/images/suanxinzi/salary_pic_screen_bg@2x.png) 0px 0px / contain no-repeat;
+    }
+}
+
+.pageHeader{
+    text-align: left;
+    position: relative;
+    left: 80px;
+    top: 12px;
+}
+.pageTitle{
+    text-align: left;
+    width: 310*2px;
+    height: 90*2px;
+    position: relative;
+    left: 40px;
+    top: 60px;
+    border: 0px #f00 solid;
+}
+.pageContent{
+    text-align: left;
+    width: 310*2px;
+    height: 330*2px;
+    position: relative;
+    left: 40px;
+    top: 170px;
+    border: 0px #f00 solid;
+}
+
+.hide{
+    display: none;
+}
+
+.label{
+    display: inline-block;
+    width: 49%;
+    border: 0px #f00 solid;
+    &.one{
+        width: 98%;
+    }
+    &.three{
+        width: 32%;
+        &.fix{
+            position:relative;
+            left:30px;
+            top:0px;
+        }
+    }
+    &.four{
+        width: 25%;
+        &.fix{
+            position:relative;
+            left:-15px;
+            top:20px;
+        }
+    }
+    .input-layer{
+        margin-bottom:20px;
+        .input{
+            height: 32*2px;
+            padding: 4*2px 4*2px;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "PingFang SC", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 15*2px;
+            font-weight: 400;
+            font-variant: tabular-nums;
+            line-height: 1.5;
+            list-style: none;
+            transition: all .3s;
+            color: #333;
+            border: 0px solid #e0e0e0;
+            border-bottom: 2*2px solid #333;
+            border-radius: 0;
+            background-color: #fff;
+            background-image: none;
+        }
+    }
+}
+.header-letter{
+    display: inline-block;
+    width: 40px;
+    margin-right: 10px;
+    border: 0px solid #f00;
+}
+.header-letter-long{
+    .txt{
+        margin-bottom: 7*2px;
+        display: block;
+        font-size: 15*2px;
+        font-weight: 800;
+        color: #999;
+        width: 90%;
+        text-align: left;
+        border: 0px #f00 solid;
+    }
+}
+.header-icon{
+    display: block;
+    width: 40*2px;
+    height: 40*2px;
+    margin:0 auto;
+    .icon{
+        display: inline-block;
+        width: 40*2px;
+        height: 40*2px;
+    }
+}
+.choose-label{
+    display: inline-block;
+    background: #333;
+    min-height: 28*2px;
+    min-width: 53*2px;
+    margin: 8*2px 16*2px 8*2px 0px;
+    position: relative;
+    left: 4px;
+    top: 0px;
+    .inner{
+        display: inline-block;
+        min-height: 28*2px;
+        min-width: 53*2px;
+        border: 2*2px #333 solid;
+        text-align: center;
+        padding: 0px 3px;
+        background: #e5e5e5;
+        position: relative;
+        left: -6px;
+        top: -6px;
+        &.active{
+            background: #fed200;
+        }
+        .txt{
+            position: relative;
+            left: 0px;
+            top: 0px;
+            font-size: 15*2px;
+            font-weight: 500;
+            color: #333;
+        }
+    }
+    &.small{
+        background: #fff;
+        min-height: 28*2px;
+        min-width: 53*2px;
+        margin: 8*2px 16*2px 8*2px 0px;
+        position: relative;
+        left: 20px;
+        top: 0px;
+        .inner{
+            display: inline-block;
+            min-height: 28*2px;
+            min-width: 53*2px;
+            border: 0px #fff solid;
+            text-align: center;
+            padding: 0px 3px;
+            background: #fff;
+            position: relative;
+            left: -6px;
+            top: -6px;
+            &.active{
+                background: #fff;
+            }
+            .txt{
+                position: relative;
+                left: 0px;
+                top: 0px;
+                font-size: 12*2px;
+                font-weight: 500;
+                color: #333;
+            }
+        }
+    }
+}
+.header-title{
+    display: block;
+    margin-bottom: 3*2px;
+    position: relative;
+    top: 0%;
+    .header-title-span{
+        font-size: 20*2px;
+        font-weight: 900;
+        color: #FED200;
+        background: #333;
+        padding: 0px 3*2px;
+        letter-spacing: 1.5px;
+    }
+
+}
+
+

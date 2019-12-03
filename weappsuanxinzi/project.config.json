@@ -1,0 +1,15 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "%E7%AE%97%E8%96%AA%E8%B5%84",
+	"description": "算薪资小程序",
+	"appid": "wx22fe75c02c7606bf",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"condition": {}
+}

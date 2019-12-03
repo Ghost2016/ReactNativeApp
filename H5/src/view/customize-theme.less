@@ -1,0 +1,195 @@
+
+/* notification */
+.ant-notification {
+    font-family: "PingFang SC", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    z-index: 1010;
+    width: 384px;
+    max-width: calc(78vw);
+    margin: 19px auto;
+    .ant-notification-notice-with-icon{
+        > .ant-notification-notice-icon-info {
+            color: #333;
+        }
+        > .ant-notification-notice-icon {
+            position: absolute;
+            font-size: 18px;
+            line-height: 24px;
+            margin-left: 4px;
+            margin-top: 7px;
+        }
+        > .ant-notification-notice-with-icon .ant-notification-notice-message {
+            font-size: 12px !important;
+            margin-left: 48px;
+            margin-bottom: 4px;
+        }
+        > .ant-notification-notice-with-icon .ant-notification-notice-description {
+            margin-left: 48px;
+            font-size: 14px;
+        }
+    }
+}
+
+/* input */
+.ant-input {
+    position: relative;
+
+    display: inline-block;
+    width: 100%;
+    height: 42px;
+    padding: 0;
+    padding: 4px 11px;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "PingFang SC", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 13px;
+    font-weight: 100;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+
+    transition: all .3s;
+
+    color: #333;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    background-color: #fff;
+    background-image: none;
+}
+.form-underline{
+    .ant-input {
+        position: relative;
+
+        display: inline-block;
+        width: 450px;
+        height: 32px;
+        padding: 0;
+        padding: 4px 4px;
+        margin: 0;
+        box-sizing: border-box;
+
+        font-family: "PingFang SC", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 19px;
+        font-weight: 400;
+        font-variant: tabular-nums;
+        line-height: 1.5;
+        list-style: none;
+
+        transition: all .3s;
+
+        color: #333;
+        border: 0px solid #e0e0e0;
+        border-bottom: 2px solid #333;
+        border-radius: 0;
+        background-color: #fff;
+        background-image: none;
+    }
+}
+
+/* button */
+.ant-btn-primary {
+    color: #333;
+    border-color: #fed200;
+    background-color: #fed200;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .035);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .12);
+}
+.btn-no-border-radius {
+    .ant-btn-primary {
+        height: 42px;
+
+        color: #333;
+        border-color: #fed200;
+        border-radius: 0;
+        background-color: #fed200;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, .035);
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, .12);
+        > span {
+            /* position: relative;
+            left: -6px; */
+
+            font-family: "PingFang SC", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 13px;
+            font-weight: 100;
+        }
+    }
+}
+
+.btn-border-radius {
+    .ant-btn-primary {
+        height: 42px;
+
+        color: #333;
+        border-color: #fed200;
+        border-radius: 40px;
+        background-color: #fed200;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, .035);
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, .12);
+        > span {
+            font-family: "PingFang SC", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+    &.orange-border {
+        .ant-btn-primary {
+            height: 42px;
+
+            color: #333;
+            border-color: #fe8900;
+            border-radius: 40px;
+            background-color: #fff;
+            box-shadow: 0 2px 0 rgba(0, 0, 0, .035);
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, .12);
+            > span {
+                font-family: "PingFang SC", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.count-down-btn{
+    /* width: 85px;
+    height: 42px;
+    overflow: hidden; */
+    > Button {
+        width: 108px;
+        background: #fed200;
+    }
+    &.disabled{
+        > Button {
+            background: #bfbfbf;
+        }
+    }
+    .ant-btn-primary.disabled, .ant-btn-primary[disabled], .ant-btn-primary.disabled:hover, .ant-btn-primary[disabled]:hover, .ant-btn-primary.disabled:focus, .ant-btn-primary[disabled]:focus, .ant-btn-primary.disabled:active, .ant-btn-primary[disabled]:active, .ant-btn-primary.disabled.active, .ant-btn-primary[disabled].active {
+        color: rgba(0, 0, 0, 0.25);
+        background-color: #f5f5f5 !important;
+        border-color: #d9d9d9 !important;
+        text-shadow: none;
+        box-shadow: none;
+    }
+}
+
+.ant-input:hover {
+    border-color: #fff !important;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+    border-right-width: 0px !important;
+}
+.ant-input:focus {
+    border-color: #fff !important;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+    border-right-width: 0px !important;
+}

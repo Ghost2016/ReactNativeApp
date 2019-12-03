@@ -1,0 +1,285 @@
+.circleProgress_wrapper {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  .borderBox {
+    border-color: #f3f3f3;
+    border-width: 0.04rem;
+    border-style: solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 50%;
+  }
+
+  .centerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.3rem;
+    height: 2.3rem;
+    background: url('../images/taskshare/home_pic_Fighting@2x.png');
+    background-size: cover;
+    border-radius: 50%;
+    /* box-shadow: 0 0 0.3rem #62ccfc; */
+    flex-direction: column;
+    top: -0.01rem;
+    position: relative;
+  }
+
+  .centerDot {
+    width: 0.1rem;
+    height: 0.1rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.05rem;
+    margin-top:  -0.05rem;
+    transform: rotate(0);
+    animation: dotLoad 1.75s linear forwards;
+
+    .moveDot {
+      position: absolute;
+      top: -1.23rem;
+      width: 0.18rem;
+      height: 0.18rem;
+      background: #fff;
+      border-radius: 50%;
+
+      .dot {
+        width: 0.14rem;
+        height: 0.14rem;
+        position: absolute;
+        left: 0.02rem;
+        top: 0.04rem;
+        background: #11affc;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.wrapper {
+  width: 1.2rem;
+  height: 2.4rem;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  overflow: hidden;
+}
+.right {
+  right: 0;
+}
+.left {
+  left: 0;
+}
+
+.circleProgress {
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 0.1rem solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.rightcircle {
+  right: 0;
+  border-top-color: #76d5fd;
+  border-right-color: #76d5fd;
+  transform: rotate(-135deg);
+  animation: circleProgressLoad_right 1s linear forwards;
+}
+
+.leftcircle {
+  left: 0;
+  border-left-color: #76d5fd;
+  border-bottom-color: #76d5fd;
+  transform: rotate(-135deg);
+  animation: circleProgressLoad_left  0.75s linear forwards;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes dotLoad {
+    0% {
+      transform: rotate(0deg);
+    }
+    // 50% {
+    //     transform: rotate(160deg);
+    // }
+    100% {
+      transform: rotate(315deg);
+    }
+  }
+
+@-webkit-keyframes circleProgressLoad_right {
+  0% {
+    transform: rotate(-135deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+@-webkit-keyframes circleProgressLoad_left {
+  0% {
+    transform: rotate(-135deg);
+  }
+  100% {
+    transform: rotate(0deg);
+
+    top: -0.01rem;
+  }
+}
+
+
+
+
+.circleProgress_wrapper2 {
+    width: 2.4rem;
+    height: 2.4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    .borderBox2 {
+      border-color: #f3f3f3;
+      border-width: 0.04rem;
+      border-style: solid;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      border-radius: 50%;
+    }
+  
+    .centerBox2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2.3rem;
+      height: 2.3rem;
+      background: url('../images/taskshare/home_pic_Salary@2x.png');
+      background-size: cover;
+      border-radius: 50%;
+      /* box-shadow: 0 0 0.3rem #62ccfc; */
+      flex-direction: column;
+      top: -0.01rem;
+      position: relative;
+    }
+  
+    .centerDot2 {
+      width: 0.1rem;
+      height: 0.1rem;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -0.05rem;
+      margin-top:  -0.05rem;
+      transform: rotate(0);
+      animation: dotLoad2 1.75s linear forwards;
+  
+      .moveDot2 {
+        position: absolute;
+        top: -1.23rem;
+        width: 0.18rem;
+        height: 0.18rem;
+        background: #fff;
+        border-radius: 50%;
+  
+        .dot2 {
+          width: 0.14rem;
+          height: 0.14rem;
+          position: absolute;
+          left: 0.02rem;
+          top: 0.04rem;
+          background: #27ecac;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  
+  .wrapper2 {
+    width: 1.2rem;
+    height: 2.4rem;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    overflow: hidden;
+  }
+  .right2 {
+    right: 0;
+  }
+  .left2 {
+    left: 0;
+  }
+  
+  .circleProgress2 {
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 0.1rem solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    transform: rotate(45deg);
+  }
+  
+  .rightcircle2 {
+    right: 0;
+    border-top-color: #27ecac;
+    border-right-color: #27ecac;
+    transform: rotate(-135deg);
+    animation: circleProgressLoad_right2 1s linear forwards;
+  }
+  
+  .leftcircle2 {
+    left: 0;
+    border-left-color: #27ecac;
+    border-bottom-color: #27ecac;
+    transform: rotate(-135deg);
+    animation: circleProgressLoad_left2  0.75s linear forwards;
+    animation-delay: 1s;
+  }
+  
+  @-webkit-keyframes dotLoad2 {
+      0% {
+        transform: rotate(0deg);
+      }
+      // 50% {
+      //     transform: rotate(160deg);
+      // }
+      100% {
+        transform: rotate(315deg);
+      }
+    }
+  
+  @-webkit-keyframes circleProgressLoad_right2 {
+    0% {
+      transform: rotate(-135deg);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+  }
+  @-webkit-keyframes circleProgressLoad_left2 {
+    0% {
+      transform: rotate(-135deg);
+    }
+    100% {
+      transform: rotate(0deg);
+  
+      top: -0.01rem;
+    }
+  }
+  

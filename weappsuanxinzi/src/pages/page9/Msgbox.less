@@ -1,0 +1,128 @@
+
+.page-row-avator{
+    display: flex;
+    width: 37*2px;
+    height: 37*2px;
+    z-index: 20;
+    &.male{
+        background: url(https://share.zhimekaimen.com/images/suanxinzi/salary_pic_head_boy@2x.png) 0 0 no-repeat;
+        background-size: contain;
+    }
+    &.female{
+        background: url(https://share.zhimekaimen.com/images/suanxinzi/salary_pic_head_girl@2x.png) 0 0 no-repeat;
+        background-size: contain;
+    }
+}
+
+.page-row-line{
+    position: relative;
+    left: 4px;
+    flex-wrap: wrap;
+    &.left{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        border: 0px #f00 solid;
+        width: 100%;
+        height: 37px;
+        margin: 5px 5px 14px 5px;
+        padding: 0px 10px;
+        margin-bottom: 70px;
+        padding-left: 60px;
+    }
+    &.right{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-bottom: 25px;
+        justify-self:right;
+        float:right;
+        justify-content:right;
+        align-items:right;
+        padding-right: 70px;
+    }
+}
+.msg-line{
+    max-width: 140*2px;
+    height: 84px;
+    &.left{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    &.right{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+}
+.msg-line-left{
+    width: 30px;
+    height: 82px;
+}
+.msg-line-right{
+    width: 10px;
+    height: 82px;
+}
+.msg-line-left2{
+    width: 10px;
+    height: 82px;
+}
+.msg-line-right2{
+    width: 30px;
+    height: 82px;
+}
+.msg-line-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://share.zhimekaimen.com/images/suanxinzi/salary_pic_box1_middle.png) 0 0 repeat-x;
+    width: 100%;
+    height: 82px;
+    padding: 0px 0px;
+    background-size:contain;
+}
+.msg-line-middle-android{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://share.zhimekaimen.com/images/suanxinzi/salary_pic_box1_middle.png) 0 0 repeat-x;
+    width: 100%;
+    height: 82px;
+    padding: 0px 0px;
+    background-size:contain;
+}
+.page-row-title{
+    display: block;
+    font-size: 15*2px;
+    font-weight: 800;
+    color: #999;
+    width: 100%;
+    text-align: center;
+    border: 0px #f00 solid;
+    margin-bottom: 0px;
+    &.title{
+        font-size: 15*2px;
+        font-weight: 900;
+        color: #333;
+        line-height: 100%;
+        margin-top: 1px;
+        margin-bottom: 3px;
+        font-family: "PingFangSC-Semibold", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        &.tiny {
+            font-size: 13*2px;
+        }
+    }
+    &.subTitle {
+        font-size: 11*2px;
+        font-weight: 300;
+        color: #333;
+        line-height: 100%;
+        letter-spacing: -1px;
+    }
+}
+.float-right{
+
+}

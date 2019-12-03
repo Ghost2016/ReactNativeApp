@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://2018.zhaiduo.com/app/ElephantApp/all/v0.2.1-build-1.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://2018.zhaiduo.com/app/ElephantApp/all/logosmall.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://2018.zhaiduo.com/app/ElephantApp/all/logo.png</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>7AB3A9TFW5</string>
+	<key>thinning</key>
+	<string>&lt;thin-for-all-variants&gt;</string>
+</dict>
+</plist>

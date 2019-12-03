@@ -1,0 +1,2 @@
+--recursive --timeout 120000 --bail
+--recursive ./e2e/login/*.js

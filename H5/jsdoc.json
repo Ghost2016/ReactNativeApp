@@ -1,0 +1,33 @@
+{
+    "plugins": [],
+    "recurseDepth": 10,
+    "source": {
+        "include": [ "./src/libs/scgc", "./src/config/unit.js"],
+        "exclude": [ "./src/libs/scgc/scgc-container.js", "./src/libs/scgc/scgc-extention.js" ],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    //"sciprt": ".\node_modules\.bin\jsdoc -c .\jsdoc.json -t .\node_modules\ink-docstrap\template\",
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "templates": {
+        "systemName"            : "shandudata前端开发 帮助文档",
+        "footer"                : "shandudata",
+        "copyright"             : "shandudata.com",
+        "includeDate"           : true,
+        "navType"               : "vertical",
+        "theme"                 : "cerulean",
+        "linenums"              : true,
+        "collapseSymbols"       : true,
+        "inverseNav"            : true,
+        "outputSourceFiles"     : true ,
+        "outputSourcePath"      : true,
+        "dateFormat"            : "yyyy-mm-dd hh:mm:ss",
+        "syntaxTheme"           : "default",
+        "sort"					: true,
+        "search"                : true
+    }
+}
