@@ -43,7 +43,7 @@
     "iconv-lite": "^0.4.19",
     "marked": "^0.3.6",
     "moment": "^2.18.1",
-    "mongodb": "^2.2.25",
+    "mongodb": "^3.6.1",
     "mongoose": "^4.9.3",
     "node-fetch": "^1.6.3",
     "nodemailer": "^4.4.0",
